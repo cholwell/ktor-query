@@ -1,0 +1,9 @@
+[versions]
+kotlin = "2.0.0"
+ktor = "3.0.0-beta-1"
+
+[libraries]
+ktor-server-core-jvm = { module = "io.ktor:ktor-server-core-jvm", version.ref = "ktor" }
+
+[plugins]
+kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
